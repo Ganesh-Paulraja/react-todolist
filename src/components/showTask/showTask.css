@@ -1,0 +1,26 @@
+.showTask{
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.complete{
+    text-decoration: line-through;
+    color: red;
+    border-color: green !important; 
+    opacity: 70%;
+}
+.showTask .task{
+font-size: 20px;
+border: 2px solid red;
+width: 250px;
+margin-bottom: 30px;
+padding: 10px;
+cursor: pointer;
+}
+.showTask p{
+    position: fixed;
+    top:90vh;
+    right: 100px;
+}
